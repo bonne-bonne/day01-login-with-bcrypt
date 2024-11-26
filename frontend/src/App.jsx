@@ -7,16 +7,6 @@ function App() {
   const [passwordLogin, setPasswordLogin] = useState(); // What the user types into the password box
   const [messageToRender, setMessageToRender] = useState(); // Message to say if the login was successful or not
 
-  // Function to save the user inputs into their corresponding states
-  // We can have this external function or do them inline
-  // function handleInput (e) {
-  //   if (e.target.name === "email") {
-  //     setEmailLogin(e.target.value);
-  //   } else if (e.target.name === "password") {
-  //     setPasswordLogin(e.target.value);
-  //   }
-  // }
-
   // Function to login the user
   function handleLogin (e) {
     e.preventDefault();
